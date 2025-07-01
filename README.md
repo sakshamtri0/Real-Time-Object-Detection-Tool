@@ -14,12 +14,6 @@ A powerful and lightweight real-time object detection application built using **
 
 ---
 
-## 📸 Demo
-
-![Demo GIF](https://github.com/yourusername/Real-Time-Object-Detection-Tool/assets/demo.gif)
-
----
-
 ## 🛠️ Tech Stack
 
 - Python
