@@ -1,29 +1,86 @@
-# Real-Time Object Detection Tool
+# 🧠 Real-Time Object Detection Tool
 
-This repository contains a real-time object detection application using deep learning and computer vision techniques. The tool leverages OpenCV and a pre-trained model to identify objects from a live webcam feed or video input.
+A powerful and lightweight real-time object detection application built using **OpenCV**, **YOLOv3**, and **PyQt5** for a user-friendly GUI experience. This tool allows you to perform live object detection using your webcam or a video file.
 
-## 🔍 Features
+---
 
-- Real-time object detection using OpenCV.
-- Supports pre-trained YOLOv3 model.
-- Configurable for custom classes.
-- Displays object labels and confidence scores.
-- Option to save output video with detections.
+## 🚀 Features
 
-## 🛠️ Technologies Used
+- 🎥 Real-time object detection using YOLOv3
+- 🖥️ Simple and responsive PyQt5 GUI
+- 📂 Supports webcam and video file input
+- 💾 Displays detection confidence and class labels
+- ⚡ Lightweight and efficient
 
-- Python 3
+---
+
+## 📸 Demo
+
+![Demo GIF](https://github.com/yourusername/Real-Time-Object-Detection-Tool/assets/demo.gif)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python
 - OpenCV
+- YOLOv3
+- PyQt5
 - NumPy
-- YOLOv3 (You Only Look Once version 3)
-- COCO Dataset (Common Objects in Context)
 
-## 🧠 Model Information
+---
 
-- **Model Architecture:** YOLOv3 (Darknet-53 as backbone)
-- **Framework:** OpenCV DNN module
-- **Trained On:** COCO dataset (80 object classes)
-- **Model Files:**
-  - `yolov3.cfg` – Model configuration file
-  - `yolov3.weights` – Pre-trained weights file
-  - `coco.names` – Class label definitions
+## 📁 Project Structure
+```
+Real-Time-Object-Detection-Tool/
+│
+├── yolov3.cfg
+├── yolov3.weights
+├── coco.names
+├── main.py
+├── gui.ui
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/Real-Time-Object-Detection-Tool.git
+cd Real-Time-Object-Detection-Tool
+```
+
+### 2. Create a Virtual Environment (Optional)
+
+```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 4. Download YOLOv3 Weights
+
+Download yolov3.weights from the official YOLO website and place it in the project folder.
+
+---
+
+## ▶️ Running the App
+```
+python main.py
+```
+
+---
+
+## 📌 Notes
+
+- Make sure you have a good webcam or use a sample video for testing.
+- You can modify the confidence threshold in the code for more accurate results.
